@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Azimuddin Shaikh | Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  
+[![Portfolio Live](https://img.shields.io/badge/Live-Website-blue)](https://your-portfolio-url.netlify.app)  
+[![GitHub](https://img.shields.io/badge/GitHub-Zolddd-black)](https://github.com/Zolddd)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
+- [License](#license)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is the **personal portfolio** website of Azimuddin Shaikh, a passionate Full Stack and MERN Stack Developer.  
+The portfolio showcases my skills, projects, experience, and contact details with a clean, modern, and responsive design.  
+Built with React.js and Tailwind CSS, it features smooth animations, theme toggling (light/dark), and accessibility best practices.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Responsive design for mobile, tablet, and desktop  
+- Light and dark theme toggle  
+- Animated page transitions and UI elements using Framer Motion  
+- Smooth scrolling and scroll-to-top on route changes  
+- Well-structured project & skill showcase with live links and GitHub repositories  
+- Contact form integrated with Formspree for easy messaging  
+- Professional, clean UI/UX with Tailwind CSS styling  
+- SEO-friendly and fast-loading  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend:** React.js, Tailwind CSS, Framer Motion  
+- **Form Handling:** Formspree  
+- **Routing:** React Router DOM  
+- **Version Control:** Git & GitHub  
+- **Deployment:** Netlify  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
+```
+src/
+ ├── components/      # Reusable UI components (Header, Footer, ScrollToTop, etc.)
+ ├── context/         # React Contexts (ThemeContext, AuthContext)
+ ├── pages/           # Main pages (Home, About, Projects, Contact)
+ ├── services/        # API service utilities (if any)
+ ├── App.js           # Main app component with routing
+ └── index.js         # Entry point
+public/
+ └── index.html       # HTML template
+```
+ Installation
+To run this project locally:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repo:
+```
+git clone https://github.com/Zolddd/Azim-Portfolio.git
+cd Azim-Portfolio
+```
+2. Install dependencies:
+```
+npm install
+```
+3. Start the development server:
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Explore the portfolio to learn about my skills and projects.  
+- Use the theme toggle button to switch between light and dark modes.  
+- Check the **"Projects"** section to see detailed descriptions with live demos and GitHub repos.  
+- Contact me directly via the contact form on the Contact page.  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Azimuddin Shaikh**  
+📞 Phone: +91 97696 22838 / +91 80809 89896  
+✉️ Email: azimshaikh2400@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/azim-shaikh-3b12a3282/)  
+🐙 [GitHub](https://github.com/Zolddd)  
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
